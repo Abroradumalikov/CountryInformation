@@ -27,11 +27,11 @@ const checking =
     : "O'zbekistoning aholisi o'rta darjadan past";
 console.log(checking);
 const hamburger = document.querySelector(".hamburger");
-const button = document.querySelector(".header__button-menu");
+const buttonMenu = document.querySelector(".header__button-menu");
 
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("hamburger-1");
-  button.classList.toggle("acc");
+  buttonMenu.classList.toggle("acc");
 });
 
 
