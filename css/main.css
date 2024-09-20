@@ -117,6 +117,30 @@ nav {
   display: none;
 }
 @media screen and (max-width: 768px) {
+  .hamburger {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.li {
+  margin-top: 5px;
+  height: 10px;
+  width: 50px;
+  border-radius: 20%/90%;
+  background-color: white;
+  transition: 1s;
+  position: relative;
+}
+.hamburger-1 .li:nth-child(1) {
+  transform: translateY(15px) rotate(45deg);
+}
+.hamburger-1 .li:nth-child(3) {
+  transform: translateY(-15px) rotate(-45deg);
+}
+.hamburger-1 .li:nth-child(2) {
+  transform: rotate(45deg);
+}
   .menu__bar {
     display: block;
     margin-right: 20px;
