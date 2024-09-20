@@ -9,14 +9,7 @@ const headerMenu2 = document.querySelector(".header__button-menu2");
 headerMenu.addEventListener("click", () => {
   headerMenu2.classList.toggle("menu3");
 });
-const menuBar = document.querySelector(".menu__bar");
-const menuBlock = document.querySelector(".header__button-menu");
-const sicl = document.querySelector(".menu__bar-x");
-menuBar.addEventListener("click", () => {
-  menuBlock.classList.toggle("show");
-  sicl.classList.toggle("x-circl");
-  menuBar.classList.toggle("exens");
-});
+
 
 const aroww = document.querySelector(".analytics1");
 const aroww1 = document.querySelector(".svg");
