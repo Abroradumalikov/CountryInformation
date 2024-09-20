@@ -145,19 +145,8 @@ nav {
   transform: translateX(100%);
 }
 
-  .menu__bar {
-    display: block;
-    margin-right: 20px;
-    cursor: pointer;
-  }
-  .menu__bar-x {
-    display: none;
-    cursor: pointer;
-  }
-  .x-circl {
-    display: block;
-    margin-right: 20px;
-  }
+
+
   .header__button-menu {
     transform: translateX(-100%);
     flex-direction: column;
@@ -170,23 +159,8 @@ nav {
     align-items: start;
     padding: 10px;
   }
-  .menu__bar.exens {
-    display: none;
-  }
-  .header__button-menu.show {
-    display: flex;
-    transform: translateX(0);
-    transition: 0.5s;
-  }
-  .header__button-menu1.menu2 {
-    position: unset;
-  }
-  .x-circl.tran {
-    transform: translateX(-100%);
-  }
-  .tran {
-    transform: translateX(-100%);
-  }
+
+
   .header__button-menu1 {
     min-height: 150px;
     transform: translateY(-5%);
