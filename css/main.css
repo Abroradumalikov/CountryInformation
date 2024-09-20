@@ -142,8 +142,9 @@ nav {
   transform: rotate(45deg);
 }
 .acc {
- transform: translateX(100%);
+  transform: translateX(100%);
 }
+
   .menu__bar {
     display: block;
     margin-right: 20px;
