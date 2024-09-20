@@ -166,7 +166,7 @@ nav {
 .hamburger-1 .li:nth-child(2) {
   transform: rotate(45deg);
 }
-.acc {
+ .header__button-menu.acc {
   transform: translateX(100%);
 }
 
