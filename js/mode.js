@@ -1,4 +1,4 @@
-gconst menu = document.querySelector(".header__button-menu-item-1");
+const menu = document.querySelector(".header__button-menu-item-1");
 const menu1 = document.querySelector(".header__button-menu1");
 
 menu.addEventListener("click", () => {
