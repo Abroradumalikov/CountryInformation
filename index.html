@@ -4,17 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Countries Information</title>
-    <!-- Favicon -->
-    <link rel="icon" href="./davlat-logo.svg" type="svg" />
-
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
-    <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/main.css" />
   </head>
 
@@ -35,16 +24,8 @@
           class="form-control"
           placeholder="Enter country name..."
           aria-label="Country name"
-          aria-describedby="button-addon"
         />
-        <button
-          id="btn"
-          class="btn btn-primary"
-          type="button"
-          id="button-addon"
-        >
-          GET
-        </button>
+        <button id="btn" class="btn btn-primary" type="button">GET</button>
       </div>
 
       <!-- Results Section -->
@@ -53,17 +34,14 @@
 
     <!-- Loader -->
     <div id="overlay" class="overlay" style="display: none">
-      <div class="spinner-border text-light" role="status">
-        <span class="sr-only"></span>
-      </div>
+      <div class="spinner"></div>
     </div>
+
     <!-- Footer Section -->
     <footer class="text-center py-4">
       <p>&copy; 2024 Countries Information | Powered by REST Countries API</p>
     </footer>
 
-    <!-- Bootstrap JS & Custom JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./js/app.js"></script>
   </body>
 </html>
